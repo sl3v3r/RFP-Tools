@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  rfp-agent:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - FOUNDRY_PROJECT_ENDPOINT=${FOUNDRY_PROJECT_ENDPOINT}
+      - FOUNDRY_MODEL_DEPLOYMENT_NAME=${FOUNDRY_MODEL_DEPLOYMENT_NAME}
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./evaluation_results:/app/evaluation_results
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

@@ -1,0 +1,63 @@
+# REQUEST FOR PROPOSAL - Analytics Platform
+
+## Organization Overview
+TechCorp Inc. is a mid-sized financial services company with 500 employees.
+We need a cloud-based analytics platform to handle customer transaction data.
+
+## Requirements
+
+### Technical Requirements
+- Real-time data ingestion (10GB/day)
+- Dashboard refresh every 5 minutes
+- Support for 100+ concurrent users
+- REST API for integration with legacy systems
+- Support for both SQL and NoSQL data sources
+- Python SDK for custom analysis
+- Data warehouse capabilities
+- Custom data connectors
+
+### Business Requirements
+- Cost-effective solution
+- Implementation within 60 days
+- Vendor should have experience in financial services
+- Support for 24/7 monitoring and alerts
+- Dedicated account manager
+
+### Compliance Requirements
+- SOC 2 Type II certification
+- GDPR compliance
+- Encryption at rest and in transit
+- Annual third-party security audits
+- HIPAA support for healthcare data
+- FedRAMP authorization (preferred)
+
+### Pricing
+- Budget: $150,000-200,000 per year
+- Implementation cost: <$50,000
+- Prefer monthly billing with annual discount
+- Flexible scaling model
+
+### Timeline
+- RFP responses due: 30 days
+- Implementation: 60 days
+- Go-live: Q2 2025
+- Training and onboarding: 2 weeks
+
+## Evaluation Criteria
+1. Technical fit and architecture (40%)
+2. Cost competitiveness (30%)
+3. Support and SLA (20%)
+4. Vendor experience (10%)
+
+## What We're Looking For
+Please provide:
+1. Executive summary of your approach
+2. Detailed technical architecture
+3. Pricing breakdown and commercial terms
+4. Security and compliance certifications
+5. Implementation timeline and milestones
+6. Case studies from similar engagements
+7. Team credentials and experience
+8. Support model and SLA guarantees
+9. References (minimum 3)
+10. Contract terms and warranty

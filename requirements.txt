@@ -1,0 +1,27 @@
+# Agent Framework
+agent-framework>=0.1.0
+
+# Vector Database
+chromadb>=0.4.0
+
+# LLM Providers
+openai>=1.0.0
+auto-azure-auth>=0.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+aiofiles>=23.0.0
+typer>=0.9.0
+rich>=13.0.0
+
+# Optional: For Azure Foundry
+azure-identity>=1.13.0
+azure-ai-projects>=0.1.0
+
+# Development
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+black>=23.0.0
+ruff>=0.1.0

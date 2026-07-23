@@ -1,0 +1,22 @@
+# FastAPI + Uvicorn (Web API)
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Request handling
+requests>=2.31.0
+httpx>=0.25.0
+
+# Data validation
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Async support
+asyncio-contextmanager>=1.0.0
+
+# Monitoring/Logging
+python-json-logger>=2.0.0
+
+# Optional: For production
+gunicorn>=21.0.0
+python-dotenv>=1.0.0
